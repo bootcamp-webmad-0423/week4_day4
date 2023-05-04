@@ -1,0 +1,9 @@
+<h1>Listado de libros</h1>
+<hr class="mb-3">
+
+{{#each books}}
+<p>{{title}} [ <a href="/libros/detalles/{{_id}}">ver detalles</a> ]</p>
+{{/each}}
+
+<hr>
+<a href="/" class="btn btn-dark">Volver a inicio</a>
